@@ -16,7 +16,7 @@ following URL into the Install System dialog on the Setup menu of the
 application:
 
 ```
-https://raw.githubusercontent.com/LyndonArmitage/sgrp-foundryvtt/refs/heads/master/system.json
+https://github.com/LyndonArmitage/sgrp-foundryvtt/releases/latest/download/system.json
 ```
 
 If you wish to manually install the system, you must clone or extract it into 
