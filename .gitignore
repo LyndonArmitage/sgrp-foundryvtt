@@ -1,3 +1,7 @@
 /*.lock
 .idea/*
 /.idea/
+
+# Exclude packs binaries in favour of exported sources
+packs/*
+!packs/_source/
