@@ -3,15 +3,23 @@
   "name": "sgrpg",
   "title": "Stargate RPG",
   "description": "System for Stargate RPG created by Wyvern Gaming, https://stargatetherpg.com/",
-  "version": "1.9.0",
-  "templateVersion": 10,
+  "version": "1.10.0",
   "authors": [
     {
-      "name": "Filip Sádovský"
+      "name": "Filip Sádovský",
+      "url": "https://github.com/sadovsf"
     },
     {
       "name": "Hertzila",
       "url": "https://github.com/Hertzila"
+    },
+    {
+      "name": "Chris Arsenault",
+      "url": "https://github.com/chris-arsenault"
+    },
+    {
+      "name": "Lyndon Armitage",
+      "url": "https://github.com/LyndonArmitage"
     }
   ],
   "compatibility": {
@@ -38,7 +46,7 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/Hertzila/StargateRPGSystem",
-  "manifest": "https://raw.githubusercontent.com/chris-arsenault/StargateRPGSystem/master/system.json",
+  "url": "https://github.com/LyndonArmitage/sgrp-foundryvtt",
+  "manifest": "https://raw.githubusercontent.com/LyndonArmitage/sgrp-foundryvtt/refs/heads/master/system.json",
   "download": "https://github.com/chris-arsenault/StargateRPGSystem/releases/download/v2.0/system.zip"
 }
