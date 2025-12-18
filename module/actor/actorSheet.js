@@ -3,7 +3,7 @@ import ActorSheetFlags from "../apps/actor-flags.js";
 export default class SGActorSheet extends ActorSheet {
     /** @override */
     static get defaultOptions() {
-        return mergeObject(super.defaultOptions, {
+        return foundry.utils.mergeObject(super.defaultOptions, {
             width: 875,
             height: 900,
             tabs: [{ navSelector: ".tabs", contentSelector: ".sg-sheet-body", initial: "character" }]
@@ -81,7 +81,7 @@ export default class SGActorSheet extends ActorSheet {
         };
 
         // Configuration data
-        sheetData.config = mergeObject(CONFIG.SGRPG, {
+        sheetData.config = foundry.utils.mergeObject(CONFIG.SGRPG, {
             conditions: {
                 normal: "Normal",
                 disadvabilitychecks: "Disadv ability checks",
