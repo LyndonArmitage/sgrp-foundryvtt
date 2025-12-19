@@ -1,0 +1,5 @@
+packs/**/*.log binary
+packs/**/CURRENT binary
+packs/**/LOG binary
+packs/**/LOG.old binary
+packs/**/MANIFEST-* binary

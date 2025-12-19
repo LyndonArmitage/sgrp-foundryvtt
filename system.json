@@ -37,12 +37,50 @@
     "styles/player-sheet.css",
     "styles/item-sheet.css"
   ],
-  "packs": [],
+  "packs": [
+    {
+      "name": "sgrp-common-weapons",
+      "label": "SGRP Common Weapons",
+      "path": "packs/sgrp-common-weapons",
+      "type": "Item",
+      "system": "sgrp"
+    },
+    {
+      "name": "sgrp-tauri-weapons",
+      "label": "SGRP Tau'ri Weapons",
+      "path": "packs/sgrp-tauri-weapons",
+      "type": "Item",
+      "system": "sgrp"
+    },
+    {
+      "name": "sgrp-alien-weapons",
+      "label": "SGRP Alien Weapons",
+      "path": "packs/sgrp-alien-weapons",
+      "type": "Item",
+      "system": "sgrp"
+    },
+    {
+      "name": "sgrp-common-armor",
+      "label": "SGRP Common Armor",
+      "path": "packs/sgrp-common-Armor",
+      "type": "Item",
+      "system": "sgrp"
+    },
+    {
+      "name": "sgrp-tauri-armor",
+      "label": "SGRP Tau'ri Armor",
+      "path": "packs/sgrp-tauri-Armor",
+      "type": "Item",
+      "system": "sgrp"
+    }
+  ],
   "languages": [],
   "socket": false,
   "initiative": "1d20 + @initiative",
-  "gridDistance": 1,
-  "gridUnits": "m",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": null,
   "url": "https://github.com/LyndonArmitage/sgrp-foundryvtt",
